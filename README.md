@@ -1,8 +1,11 @@
-# bccard
+# 22년 BC카드 인턴 과제
 
 # 인턴 과제 주제
 
-트렐로 비슷한 칸반보드 협업 툴 (PC버전)
+[BC콜라보](https://kimdong.uk/)  
+칸반보드 협업 툴 (PC버전)  
+
+<img width="1000" alt="image" src="https://user-images.githubusercontent.com/48395704/207649194-fc3b4a93-88b9-4a15-92ab-9b8eab617fb0.png">
 
 # 기능 정리
 ## 마이페이지
