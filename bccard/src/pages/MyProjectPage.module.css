@@ -1,0 +1,47 @@
+.root {
+  height: 100%;
+  padding: 30px;
+
+  background-color: #f5f5f7; /* var(--tree-root-background-color); */
+}
+
+.header {
+  margin-top: 20px;
+  margin-left: 40px;
+}
+
+.filterContainer {
+  margin-top: 20px;
+  margin-bottom: 5px;
+}
+
+.filter {
+  user-select: none;
+  cursor: pointer;
+  width: fit-content;
+  padding: 8px 16px;
+  transition: all 0.3s ease;
+  background-color: #e8e8e8;
+  border-radius: 20px;
+}
+
+.filter:hover {
+  background-color: #dadada;
+}
+
+.createButton {
+  margin-top: 10px;
+}
+
+.username {
+  color: black;
+  display: inline-block;
+  font-weight: lighter;
+  font-size: 4rem;
+}
+
+.displayUser {
+  color: rgb(118, 105, 105);
+  user-select: none;
+  font-size: 3rem;
+}

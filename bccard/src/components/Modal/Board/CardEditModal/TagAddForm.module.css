@@ -1,0 +1,47 @@
+.root {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.formLabel {
+  color: rgba(0, 0, 0, 0.6);
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 1.4375em;
+  letter-spacing: 0.00938em;
+  padding: 0;
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+
+.tag {
+  margin: 3px;
+  transition: filter 0.2s ease;
+}
+
+.tag:hover {
+  filter: brightness(75%);
+}
+
+.colorPicker {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  margin: 10px 0px;
+}
+
+.palette {
+  width: 20px;
+  height: 20px;
+  border-radius: 20px;
+  margin-right: 6px;
+  box-sizing: border-box;
+}
+
+.selected {
+  width: 30px;
+  height: 30px;
+  border-radius: 30px;
+}

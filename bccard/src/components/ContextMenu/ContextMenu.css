@@ -1,0 +1,16 @@
+.react-contexify {
+  border: 1px solid #a10035;
+  max-height: 400px;
+  overflow-y: auto;
+}
+
+.react-contexify__item__content:hover span {
+  text-decoration-color: white;
+}
+
+.react-contexify__item:not(.react-contexify__item--disabled):hover
+  > .react-contexify__item__content,
+.react-contexify__item:not(.react-contexify__item--disabled):focus
+  > .react-contexify__item__content {
+  background-color: #a10035;
+}

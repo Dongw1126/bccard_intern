@@ -1,0 +1,69 @@
+.root {
+  height: 100%;
+  background-color: var(--board-root-backround-color);
+}
+
+.header {
+  height: 50px;
+  margin-bottom: 10px;
+}
+
+.headerTop {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.saveProgess {
+  margin-left: 10px;
+}
+
+.participants {
+  position: relative;
+  right: 180px;
+  top: -13px;
+}
+
+.projectName {
+  margin-top: 10px;
+  padding-left: 20px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  font-size: 1.9rem;
+  display: flex;
+  align-items: center;
+}
+
+.infoGroup {
+  display: flex;
+  padding-top: 10px;
+}
+
+.tableButton {
+  margin: 0px 18px;
+  user-select: none;
+  cursor: pointer;
+  width: fit-content;
+  padding: 8px 16px;
+  transition: all 0.3s ease;
+  background-color: #464040;
+  color: white;
+  border-radius: 20px;
+}
+
+.tableButton:hover {
+  background-color: #6d6d6d;
+}
+
+.emoji {
+  margin-right: 10px;
+}
+
+.forbidden {
+  height: 100vh;
+  text-align: center;
+  font-size: 2rem;
+  padding-top: 20%;
+}

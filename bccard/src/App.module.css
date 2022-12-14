@@ -1,0 +1,45 @@
+/* 글로벌 css variables */
+:root {
+  --main-color: #a10035;
+
+  /* CardContainer 스타일 */
+  --container-header-top-offset: -60px;
+  --container-header-right-offset: 4px; /* 컨테이너 패딩 + 컨테이너 border 크기 */
+  --container-header-max-width: 15vw;
+  --container-header-min-width: 10vw;
+
+  --container-padding: 10px;
+  --container-border-size: 4px;
+  --container-min-width: 300px;
+
+  /* CardTree 스타일 */
+  --tree-root-offset: -20px;
+  --tree-root-background-color: #f2f2f2;
+
+  /* Board 스타일 */
+  --board-root-backround-color: #f2f2f2;
+  --board-lane-backround-color: #e3e3e3;
+  --board-lane-border-radius: 3px;
+
+  /* Card 베이스 스타일 */
+  --card-border-radius: 16px;
+  --card-border-size: 2px;
+  --card-min-width: 150px;
+  --card-body-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
+    rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+
+  /* MemoCard 스타일 */
+  --memocard-min-width: 20vw;
+
+  /* ImageCard 스타일 */
+  --imagecard-border-radius: 8px;
+
+  --folder-border-radius: 12px;
+
+  --placeholder-size: 6px;
+
+  /* Nav, SideBar 스타일 */
+  --sidebar-width: 250px;
+  --nav-height: 70px;
+  --bar-background-color: #2d3037;
+}

@@ -1,0 +1,56 @@
+.root {
+  height: 100%;
+  padding: 30px;
+  padding-left: 70px;
+  padding-bottom: 140px;
+  background-color: #f5f5f7;
+}
+
+.content {
+  width: 70%;
+}
+
+.header {
+  margin-top: 20px;
+  margin-left: 40px;
+}
+
+.username {
+  color: black;
+  display: inline-block;
+  font-weight: lighter;
+  font-size: 4rem;
+}
+
+.displayUser {
+  color: rgb(118, 105, 105);
+  user-select: none;
+  font-size: 3rem;
+}
+
+.avatar {
+  margin: 10px 0px;
+  width: fit-content;
+  font-weight: lighter;
+}
+
+.notifications {
+  margin-top: 35px;
+}
+
+.notifications > span {
+  margin-bottom: 15px;
+  font-size: 2rem;
+}
+
+.userInfo {
+  font-size: 1.2rem;
+  color: #000000;
+  font-weight: lighter;
+}
+
+.dashBoard {
+  font-size: 2rem;
+  margin-top: 60px;
+  user-select: none;
+}

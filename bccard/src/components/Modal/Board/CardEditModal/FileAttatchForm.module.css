@@ -1,0 +1,32 @@
+.root {
+  margin-top: 30px;
+}
+
+.attatchmentsContainer {
+  margin: 5px 0px;
+}
+
+.attatchments {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 3px 0px;
+  transition: background-color 0.3s ease;
+  padding: 5px;
+  border-radius: 10px;
+  user-select: none;
+}
+
+.attatchments:hover {
+  background-color: #e7e7e7;
+}
+
+.formContainer {
+  margin-top: 15px;
+  display: flex;
+  align-items: center;
+}
+
+.formButtonContainer {
+  margin-left: 10px;
+}

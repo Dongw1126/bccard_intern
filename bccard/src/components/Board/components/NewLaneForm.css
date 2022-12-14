@@ -1,0 +1,11 @@
+.MuiFilledInput-root {
+  background-color: white !important;
+}
+
+.MuiFilledInput-root:hover {
+  background-color: white !important;
+}
+
+.MuiFilledInput-input:focus + .MuiFilledInput-root {
+  background-color: white !important;
+}

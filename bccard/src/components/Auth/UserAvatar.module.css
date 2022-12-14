@@ -1,0 +1,29 @@
+.avatarContainer {
+  display: flex;
+  align-items: center;
+  background-color: white;
+  border-color: #8d9396;
+  border-style: solid;
+  border-radius: 70%;
+  user-select: none;
+}
+
+.avatarContainer:hover {
+  background-color: #fff5eb;
+}
+
+.nickname {
+  width: 100%;
+  color: rgb(55, 53, 47);
+  text-align: center;
+}
+
+.avatarImg {
+  display: flex;
+  align-items: center;
+}
+
+.avatarImg > img {
+  border-radius: 70%;
+  object-fit: cover;
+}

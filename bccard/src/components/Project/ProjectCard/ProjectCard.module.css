@@ -1,0 +1,86 @@
+.root {
+  align-items: center;
+  user-select: none;
+  width: 20vw;
+  min-width: 270px;
+}
+
+.card {
+  height: auto;
+  justify-content: center;
+
+  border-radius: 10px;
+  border: 1px solid rgb(221, 221, 221);
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
+  transition: all 0.5s ease;
+
+  background-color: white;
+}
+
+.card:hover {
+  box-shadow: 0px 0px 25px 0px rgba(0, 0, 0, 0.2);
+}
+
+.cardBody {
+  height: auto;
+  padding: 5px 15px;
+  margin: 5px 0px;
+}
+
+.cardHeader {
+  margin-top: 12px;
+  margin-left: 10px;
+  display: flex;
+}
+
+.cardTitle {
+  flex-grow: 1;
+  display: inline-block;
+  font-size: 1.5rem;
+  font-weight: 700;
+
+  margin-top: 4px;
+
+  word-break: break-all;
+
+  cursor: pointer;
+}
+
+.cardTitle > a {
+  text-decoration: none;
+  color: black;
+}
+
+.cardContent {
+  width: inherit;
+}
+
+.cardDescription {
+  margin: 5px 0;
+  margin-left: 10px;
+  word-break: break-all;
+  white-space: pre-wrap;
+}
+
+.cardParticipants {
+  text-align: right;
+}
+
+.cardProgress {
+  margin: 2px;
+}
+
+.cardFooter {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.cardOverview {
+  display: flex;
+  flex-grow: 1;
+}
+
+.cardDeadline {
+  float: right;
+}

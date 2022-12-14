@@ -1,0 +1,38 @@
+.root {
+  width: 30%;
+  max-width: 280px;
+  max-height: 130px;
+  user-select: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  text-align: center;
+
+  border-radius: 15px;
+
+  padding: 10px;
+  margin: 5px;
+
+  transition: all 0.25s ease;
+
+  user-select: none;
+  cursor: pointer;
+}
+
+.root:hover {
+  background: rgb(234, 234, 234);
+}
+
+.title {
+  word-break: keep-all;
+  font-size: 1.2rem;
+}
+
+.number {
+  /* width: fit-content; */
+  font-size: 2rem;
+}
+/* .number:hover {
+  text-decoration: underline;
+} */

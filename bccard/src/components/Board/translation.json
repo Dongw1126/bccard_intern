@@ -1,0 +1,16 @@
+{
+  "Add another lane": "+ 레인 추가하기",
+  "Click to add card": "카드 추가하기",
+  "Delete lane": "레인 삭제하기",
+  "Lane actions": "Lane actions",
+  "button": {
+    "Add lane": "레인 추가",
+    "Add card": "스토리카드 추가",
+    "Cancel": "취소"
+  },
+  "placeholder": {
+    "title": "타이틀",
+    "description": "내용",
+    "label": "라벨"
+  }
+}

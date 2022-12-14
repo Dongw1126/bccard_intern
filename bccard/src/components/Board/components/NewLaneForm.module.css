@@ -1,0 +1,11 @@
+.root {
+  margin: 5px;
+  padding: 10px;
+  background-color: var(--board-lane-backround-color);
+  border-radius: var(--board-lane-border-radius);
+}
+
+.buttonGroup {
+  margin: 8px 0px;
+  text-align: center;
+}

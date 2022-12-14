@@ -1,0 +1,97 @@
+.root {
+  padding: 10px;
+  border-radius: 3px;
+  box-shadow: 0 1px 0 #ccc;
+  transition: background-color 0.3s ease;
+}
+
+.root:hover {
+  background-color: #f8f8f8 !important;
+}
+
+.root:hover .deleteButton {
+  opacity: 1;
+  visibility: visible !important;
+}
+
+.deleteButton {
+  visibility: hidden;
+  opacity: 0;
+  transition: opacity 0.2s ease;
+}
+
+.headerTop {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header {
+  padding-bottom: 6px;
+  margin-bottom: 5px;
+}
+
+.title {
+  font-size: 1.1rem;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.cover {
+  object-fit: contain;
+  text-align: center;
+  margin: 5px 0px;
+}
+
+.description {
+  white-space: pre-wrap;
+  line-break: anywhere;
+}
+
+.tag {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.content {
+  margin-bottom: 5px;
+}
+
+.summary {
+  display: flex;
+  white-space: nowrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.progress {
+  padding: 5px;
+}
+
+.tasks {
+  margin-bottom: 5px;
+}
+
+.taskTitle {
+  width: 200px;
+  margin-left: 10px;
+  overflow-x: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.attatchments {
+  width: fit-content;
+  white-space: nowrap;
+  user-select: none;
+  margin-right: 10px;
+}
+
+.assignees {
+  display: flex;
+  flex-wrap: wrap;
+}

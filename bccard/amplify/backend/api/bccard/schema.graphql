@@ -1,0 +1,34 @@
+type Notification @model @auth(rules: [{allow: public}]) {
+  id: ID!
+  content: String
+  confirmed: Boolean
+  senderId: String
+  receiverId: String
+}
+
+type User @model @auth(rules: [{allow: public}]) {
+  id: ID!
+  userId: ID!
+  nickname: String!
+  email: String!
+  avatar: String
+}
+
+type MyProject @model @auth(rules: [{allow: public}]) {
+  id: ID!
+  userId: ID
+  project: ID
+}
+
+type Project @model @auth(rules: [{allow: public}]) {
+  id: ID!
+  users: [ID]
+  title: String
+  description: String
+  deadline: AWSDate
+  overview: [Int]
+  kanban: String
+  emoji: String
+  openPublic: Boolean
+}
+ 

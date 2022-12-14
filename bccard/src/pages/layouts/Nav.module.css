@@ -1,0 +1,57 @@
+.logo {
+  float: left;
+  padding: 5px 150px 0 10px;
+}
+
+.logo img {
+  height: 50px;
+}
+
+.navRoot {
+  display: flex;
+  align-items: center;
+  background-color: var(--bar-background-color);
+  height: var(--nav-height);
+}
+
+.navContent {
+  text-align: center;
+  height: var(--nav-height);
+  min-width: 200px;
+  float: left;
+  color: #a6a6a6;
+  text-decoration: none;
+
+  padding: 0px 25px;
+
+  transition: 0.3s;
+  line-height: var(--nav-height);
+  font-size: large;
+}
+
+@media only screen and (max-width: 950px) {
+  .logo {
+    padding-right: 0px;
+  }
+
+  .navContent {
+    min-width: 100px;
+    padding: 0px 10px;
+  }
+
+  .navContent > span {
+    font-size: smaller;
+  }
+}
+
+.navContent:hover {
+  color: white;
+  background-color: #1d1f24;
+}
+
+.logout {
+  padding: 0px 40px;
+  float: right;
+  cursor: pointer;
+  user-select: none;
+}

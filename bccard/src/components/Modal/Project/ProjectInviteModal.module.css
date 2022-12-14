@@ -1,0 +1,28 @@
+.searchRoot {
+  margin-top: 20px;
+  width: 300px;
+}
+
+.searchContent {
+  display: flex;
+}
+
+.searchUserName {
+  width: 150px;
+  font-size: 1.2rem;
+}
+
+.searchEmail {
+  display: inline-block;
+  width: 150px;
+  font-size: 0.8rem;
+  color: gray;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+.inviteButton {
+  margin: 5px;
+  margin-left: auto;
+}

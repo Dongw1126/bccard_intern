@@ -1,0 +1,43 @@
+.header {
+  display: flex;
+  align-items: center;
+}
+
+.number {
+  background-color: red;
+  color: white;
+  width: 24px;
+  height: 24px;
+  border-radius: 24px;
+  text-align: center;
+
+  margin-left: 10px;
+}
+
+.notificationContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  transition: background-color 0.25s ease;
+}
+
+.notificationContainer:hover {
+  background-color: #e7e7e7;
+}
+
+.readButton {
+  background-color: rgb(156, 60, 60);
+  color: white;
+  padding: 5px 10px;
+  white-space: nowrap;
+  border-radius: 20px;
+  transition: background-color 0.25s ease;
+  cursor: pointer;
+  user-select: none;
+  margin-left: 20px;
+}
+
+.readButton:hover {
+  background-color: rgb(119, 36, 36);
+}

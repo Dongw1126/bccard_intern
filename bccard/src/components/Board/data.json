@@ -1,0 +1,70 @@
+{
+  "lanes": [
+    {
+      "id": "TODO",
+      "title": "살 것",
+      "style": { "width": 280 },
+      "cards": [
+        {
+          "id": "asdasdasdasd",
+          "title": "우유 사기",
+          "label": "15분 정도",
+          "cardStyle": {
+            "width": 260,
+            "maxWidth": 260,
+            "backgroundColor": "white",
+            "margin": "auto",
+            "marginBottom": 9
+          },
+          "description": "저지방으로",
+          "tags": [
+            {
+              "id": 1,
+              "title": "High",
+              "color": "white",
+              "bgColor": "#EB5A46"
+            },
+            {
+              "id": 2,
+              "title": "Tech Debt",
+              "color": "white",
+              "bgColor": "#0079BF"
+            },
+            {
+              "id": 3,
+              "title": "Something",
+              "color": "white",
+              "bgColor": "#0079BF"
+            }
+          ],
+          "tasks": [
+            { "id": "1", "title": "taaaaaaaask1", "complete": true },
+            { "id": "2", "title": "task2", "complete": false },
+            { "id": "3", "title": "task3", "complete": false }
+          ],
+          "assignees": [],
+          "attatchments": [
+            { "id": "1", "filename": "asdf.pdf", "fileSrc": "..." }
+          ],
+          "cover": null
+        },
+        {
+          "id": "cf",
+          "title": "커피 사기",
+          "label": "5분",
+          "cardStyle": {
+            "width": 260,
+            "maxWidth": 260,
+            "backgroundColor": "white",
+            "margin": "auto",
+            "marginBottom": 9
+          },
+          "description": "아아2 뜨아2",
+          "metadata": {
+            "title": "커피 사기"
+          }
+        }
+      ]
+    }
+  ]
+}

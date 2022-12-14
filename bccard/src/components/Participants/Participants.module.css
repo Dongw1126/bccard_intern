@@ -1,0 +1,24 @@
+.circleOverlapping {
+  position: relative;
+}
+
+.circle {
+  position: absolute;
+  top: 14px;
+  user-select: none;
+}
+
+.more {
+  position: absolute;
+  width: max-content;
+  top: 1px;
+  cursor: pointer;
+  user-select: none;
+  border-radius: 5px;
+  padding: 5px;
+  transition: all 0.3s ease;
+}
+
+.more:hover {
+  background-color: rgb(216, 216, 216);
+}

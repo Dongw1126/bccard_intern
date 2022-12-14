@@ -1,0 +1,12 @@
+.react-trello-board {
+  background-color: transparent !important;
+}
+
+.react-trello-lane {
+  border-radius: var(--board-lane-border-radius) !important;
+  background-color: var(--board-lane-backround-color) !important;
+}
+
+.react-trello-card textarea {
+  pointer-events: none;
+}

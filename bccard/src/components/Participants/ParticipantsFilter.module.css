@@ -1,0 +1,13 @@
+.filter {
+  user-select: none;
+  cursor: pointer;
+  width: fit-content;
+  padding: 8px 16px;
+  transition: all 0.3s ease;
+  background-color: #e8e8e8;
+  border-radius: 20px;
+}
+
+.filter:hover {
+  background-color: #dadada;
+}

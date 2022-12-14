@@ -1,0 +1,34 @@
+/*
+    로그인 폼 css overwrite
+*/
+
+/* 로그인 폼 박스 스타일 */
+[data-amplify-authenticator] [data-amplify-router] {
+  box-shadow: none !important;
+  border-style: none !important;
+}
+
+/* 로그인 폼 레이아웃
+form[data-amplify-form] > div {
+  flex-direction: row !important;
+  flex-flow: row !important;
+} */
+
+/* 이메일, 비밀번호 입력창 스타일 
+form[data-amplify-form] > div > fieldset {
+  width: 70% !important;
+}*/
+
+button[aria-label="Show password"] {
+  border-radius: 0px !important;
+}
+
+input {
+  border-radius: 0px !important;
+}
+
+/* 로그인 버튼 스타일 */
+button[type="submit"] {
+  /* flex: 1 !important; */
+  border-radius: 0px !important;
+}

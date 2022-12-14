@@ -1,0 +1,9 @@
+.projectContainer {
+  width: 90%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.project {
+  margin: 15px;
+}

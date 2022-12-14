@@ -1,0 +1,18 @@
+.checkBoxContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 4px;
+  transition: background-color 0.25s ease;
+  border-radius: 10px;
+}
+
+.checkBoxContainer:hover {
+  background-color: #eaeaea;
+}
+
+.addButton {
+  display: flex;
+  padding: 4px;
+  align-items: center;
+}
